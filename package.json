@@ -1,0 +1,22 @@
+{
+  "name": "@containership/containership.api-factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/containership/containership.api-factory.git"
+  },
+  "dependencies": {
+    "@containership/containership.api-bridge": "git://github.com/containership/containership.api-bridge",
+    "@containership/containership.k8s.api-bridge": "git://github.com/containership/containership.k8s.api-bridge"
+  },
+  "author": "Containership Developers <developers@containership.io>",
+  "bugs": {
+    "url": "https://github.com/containership/containership.api-factory/issues"
+  },
+  "homepage": "https://github.com/containership/containership.api-factory#readme"
+}
