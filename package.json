@@ -1,6 +1,6 @@
 {
   "name": "@containership/containership.api-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
     "url": "git+https://github.com/containership/containership.api-factory.git"
   },
   "dependencies": {
-    "@containership/containership.api-bridge": "git://github.com/containership/containership.api-bridge",
-    "@containership/containership.k8s.api-bridge": "git://github.com/containership/containership.k8s.api-bridge"
+    "@containership/containership.api-bridge": "git://github.com/containership/containership.api-bridge.git",
+    "@containership/containership.k8s.api-bridge": "git://github.com/containership/containership.k8s.api-bridge.git"
   },
   "author": "Containership Developers <developers@containership.io>",
   "bugs": {
