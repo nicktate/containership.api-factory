@@ -1,10 +1,12 @@
 {
   "name": "@containership/containership.api-factory",
   "version": "1.0.1",
-  "description": "",
+  "description": "Api Factory",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "lint": "echo \"Running lint tests...\n\" && ./node_modules/.bin/eslint .",
+    "dependency-check": "echo \"Running dependency checks...\n\" && ./node_modules/.bin/depcheck . --ignore depchecks"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/containership/containership.api-factory/issues"
   },
-  "homepage": "https://github.com/containership/containership.api-factory#readme"
+  "homepage": "https://github.com/containership/containership.api-factory#readme",
+  "devDependencies": {
+    "@containership/eslint-config-containership.eslint.backend": "^1.0.0",
+    "depcheck": "^0.6.7",
+    "eslint": "^4.4.1"
+  }
 }
